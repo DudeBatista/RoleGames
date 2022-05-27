@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">RoleGames</string>
+    <string name="home">HOME</string>
+    <string name="noticias_baseadas_nas_suas_prefer_ncias">Noticias baseadas nas suas preferências</string>
+    <string name="carregando">Carregando...</string>
+    <string name="logo">logo</string>
+    <string name="btnvoltar">voltar</string>
+    <string name="btnperfil">perfil</string>
+    <string name="btnlogout">logout</string>
+    <string name="btnlocal">btnlocal</string>
+    <string name="btnconf">btnconf</string>
+    <string name="btnhome">home</string>
+    <string name="imgbtnsearch">imgBtnSearch</string>
+    <string name="btncadastrar">Cadastrar</string>
+    <string name="imgfoto">foto</string>
+    <string name="lblnome">Nome</string>
+    <string name="lble_mail">E-mail</string>
+    <string name="lblDatanasc">Data de Nascimento</string>
+    <string name="lblsenha">Senha</string>
 </resources>
