@@ -11,6 +11,12 @@
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/RoleGames/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2985" />
         <entry key="..\:/Users/3etimds/Downloads/RoleGames/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/3etimds/Downloads/RoleGames/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/3etimds/StudioProjects/RoleGames/app/src/main/res/drawable/ic_baseline_keyboard_return_24.xml" value="0.2985" />
+        <entry key="..\:/Users/3etimds/StudioProjects/RoleGames/app/src/main/res/layout/activity_cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/3etimds/StudioProjects/RoleGames/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/3etimds/StudioProjects/RoleGames/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/3etimds/StudioProjects/RoleGames/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/3etimds/StudioProjects/RoleGames/app/src/main/res/layout/loginn.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/dudar/StudioProjects/RoleGames/app/src/main/res/drawable/degrade.xml" value="0.3245" />
         <entry key="..\:/Users/dudar/StudioProjects/RoleGames/app/src/main/res/drawable/degrade_background.xml" value="0.339" />
         <entry key="..\:/Users/dudar/StudioProjects/RoleGames/app/src/main/res/layout/activity_cadastro.xml" value="0.371875" />
@@ -20,7 +26,7 @@
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="15" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

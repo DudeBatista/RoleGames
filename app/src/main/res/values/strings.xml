@@ -17,4 +17,6 @@
     <string name="lble_mail">E-mail</string>
     <string name="lblDatanasc">Data de Nascimento</string>
     <string name="lblsenha">Senha</string>
+    <string name="foto">TODO</string>
+    <string name="btnLogin">Login</string>
 </resources>
