@@ -47,5 +47,5 @@ SplashActivity extends AppCompatActivity {
             }
         };
         t.schedule(tt, delay:0, period:100);
-    }
+    }*/
 }

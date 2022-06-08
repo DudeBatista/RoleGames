@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/degrade_background">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="56dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="191dp"
+        android:background="#fff"
+        android:paddingStart="30dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <EditText
+            android:id="@+id/emaillogin"
+            android:layout_width="239dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="E-mail" />
+
+        <EditText
+            android:id="@+id/senhalogin"
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Senha" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="167dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/botao_background"
+            android:text="@string/btnLogin"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="180dp"
+        android:text="LOGIN"
+        android:textColor="#263238"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="51dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="349dp"
+        android:layout_marginBottom="216dp"
+        android:background="@null"
+        android:contentDescription="TODO"
+        android:minHeight="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_keyboard_return_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_baseline_login_24"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
