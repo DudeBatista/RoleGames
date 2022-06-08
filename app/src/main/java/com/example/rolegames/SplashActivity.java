@@ -6,7 +6,13 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SplashActivity extends AppCompatActivity {
+import java.util.TimerTask;
+
+public class
+SplashActivity extends AppCompatActivity {
+
+    ProgressBar pb;
+    int counter = 0;
 
     static int TIMEOUT_MILLIS = 3000;
     @Override
@@ -26,5 +32,20 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, TIMEOUT_MILLIS);
+    }
+    public void prog(){
+        pb = (ProgressBar)findViewById(R.id.pb);
+        final Timer t = new Timer();
+        TimerTask tt = new TimerTask() {
+            @Override
+            public void run() {
+                counter++;
+                pb.setProgress(counter);
+
+                if (counter=100)
+                    t.cancel();
+            }
+        };
+        t.schedule(tt, delay:0, period:100);
     }
 }
