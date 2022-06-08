@@ -11,7 +11,7 @@ import java.util.TimerTask;
 public class
 SplashActivity extends AppCompatActivity {
 
-    ProgressBar pb;
+    //ProgressBar pb;
     int counter = 0;
 
     static int TIMEOUT_MILLIS = 3000;
@@ -33,7 +33,7 @@ SplashActivity extends AppCompatActivity {
             }
         }, TIMEOUT_MILLIS);
     }
-    public void prog(){
+    /*public void prog(){
         pb = (ProgressBar)findViewById(R.id.pb);
         final Timer t = new Timer();
         TimerTask tt = new TimerTask() {
