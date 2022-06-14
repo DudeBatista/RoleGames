@@ -8,15 +8,15 @@
         android:enabled="true"
         android:title="Home" />
     <item
-        android:icon="@drawable/ic_baseline_newspaper_24"
         android:enabled="true"
-        android:title="noticias" />
-    <item
         android:icon="@drawable/ic_baseline_near_me_24"
-        android:enabled="true"
-        android:title="local" />
+        android:title="Local" />
     <item
-        android:icon="@drawable/ic_baseline_display_settings_24"
         android:enabled="true"
-        android:title="config" />
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Login" />
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Sair" />
 </menu>

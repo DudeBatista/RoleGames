@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/botao_background.xml" value="0.332" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/degrade_background.xml" value="0.332" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_display_settings_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_drive_file_rename_outline_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_keyboard_return_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_near_me_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_newspaper_24.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.332" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/layout/activity_main.xml" value="0.18085106382978725" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1735" />
+        <entry key="..\:/PROGRAMACAO/Rolegames2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1995" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/RoleGames/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/RoleGames/app/src/main/res/drawable/ic_baseline_keyboard_return_24.xml" value="0.2985" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/RoleGames/app/src/main/res/layout/activity_main.xml" value="0.33" />
