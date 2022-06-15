@@ -47,7 +47,7 @@
             android:id="@+id/btnLogin"
             android:layout_width="167dp"
             android:layout_height="56dp"
-            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
             android:layout_marginBottom="40dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/botao_background"

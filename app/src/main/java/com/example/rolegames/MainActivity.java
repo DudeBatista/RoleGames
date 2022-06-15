@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         }
         if(net != null && net.isConnected()){
             if(query.length() == 0){
-               
+
             }
             else{
                 Bundle queryBundle = new Bundle();

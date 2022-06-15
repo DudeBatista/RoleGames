@@ -9,19 +9,33 @@ import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 
-    public Button btncad;
+    Button btnLogin, btncad;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
+        btncad=findViewById(R.id.btncad);
 
-    }
-    public void IrPraCad(View view){
 
-        findViewById(R.id.btncad);
-        Intent intent =  new Intent(Login.this, Cadastro.class);
-        startActivity(intent);
+        btncad.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent o = new Intent(Login.this, Cadastro.class);
+                startActivity(o);
+            }
+        });
+
+        btnLogin=findViewById(R.id.btnLogin);
+
+        btnLogin.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent o = new Intent(Login.this, MainActivity.class);
+                startActivity(o);
+            }
+        });
     }
+
 }
