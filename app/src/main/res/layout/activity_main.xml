@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/svpesquisa"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#AFCAA6"
@@ -14,7 +15,7 @@
         android:layout_height="85dp"
         android:backgroundTint="#000"
         android:gravity="center_horizontal"
-        android:text="Notícias"
+        android:text="@string/not_cias"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#fff"
         android:textSize="48sp"
@@ -49,9 +50,15 @@
         tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
+            android:id="@+id/LinearNoticias"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class networkUtils {
     private static final String LOG_TAG = networkUtils.class.getSimpleName();
-    private static final String URL_STEAM = "GET https://api.steampowered.com/ISteamNews/GetNewsForApp/v2";
+    private static final String URL_STEAM = "GET https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?count=3";
     private static final String STEAM_QUERY ="/";
 
     String steamJSON = null;
