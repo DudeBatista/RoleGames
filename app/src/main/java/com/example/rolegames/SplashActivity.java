@@ -19,19 +19,7 @@ SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
-        new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-
-                Intent i = new Intent(SplashActivity.this, MainActivity.class);
-                startActivity(i);
-
-                // close this activity
-                finish();
-            }
-        }, TIMEOUT_MILLIS);
+        run();
     }
     /*public void prog(){
         pb = (ProgressBar)findViewById(R.id.pb);
@@ -48,4 +36,9 @@ SplashActivity extends AppCompatActivity {
         };
         t.schedule(tt, delay:0, period:100);
     }*/
+    public void run() {
+
+        Intent i = new Intent(this, Cadastro.class);
+        startActivity(i);
+    }
 }

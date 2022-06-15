@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             while (i < itemsArray.length() && (author == null && contents == null)){
                 JSONObject news = itemsArray.getJSONObject(i);
                 JSONObject appnews = news.getJSONObject("appnews");
-                    JSONArray arrayNews = appnews.getJSONArray("newsitem");
+                    JSONArray arrayNews = appnews.getJSONArray("newsitems");
                         JSONObject noticias = arrayNews.getJSONObject(Integer.parseInt("noticias"));
                             JSONObject titulo = noticias.getJSONObject("titulo");
                             JSONObject autor = noticias.getJSONObject("autor");
