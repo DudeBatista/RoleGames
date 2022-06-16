@@ -9,33 +9,22 @@ import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 
-    Button btnLogin, btncad;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
-
-        btncad=findViewById(R.id.btncad);
-
-
-        btncad.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent o = new Intent(Login.this, Cadastro.class);
-                startActivity(o);
-            }
-        });
-
-        btnLogin=findViewById(R.id.btnLogin);
-
-        btnLogin.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent o = new Intent(Login.this, MainActivity.class);
-                startActivity(o);
-            }
-        });
     }
 
+    public void goToCadastro(View view){
+        Intent o = new Intent(getApplicationContext(), Cadastro.class);
+        startActivity(o);
+    }
+
+    public void goToMain(View view){
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        Bundle data = new Bundle();
+        data.putString("enterType", "login");
+        intent.putExtras(data);
+        startActivity(intent);
+    }
 }

@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class networkUtils {
     private static final String LOG_TAG = networkUtils.class.getSimpleName();
-    private static final String URL_STEAM = "GET https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?count=3";
+    private static final String URL_STEAM = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?count=3";
     private static final String STEAM_QUERY ="/";
 
     String steamJSON = null;
@@ -24,13 +24,13 @@ public class networkUtils {
         String steamJSON = null;
         try {
             Uri buildURI = Uri.parse(URL_STEAM).buildUpon()
-                    .appendPath(query)
+                    .appendQueryParameter("appid",query)
                     .build();
             URL requestURL = new URL(buildURI.toString());
             url = buildURI.toString();
 
             conexao = (HttpURLConnection) requestURL.openConnection();
-            conexao.setRequestMethod("GET");
+            //conexao.setRequestMethod("GET");
             conexao.connect();
 
             InputStream inputStream = conexao.getInputStream();
@@ -54,7 +54,7 @@ public class networkUtils {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            conexao.disconnect();
+
         }
         return steamJSON;
     }

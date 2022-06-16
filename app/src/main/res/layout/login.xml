@@ -32,8 +32,8 @@
             android:layout_height="5dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="E-mail" />
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/senhalogin"
@@ -41,16 +41,17 @@
             android:layout_height="1dp"
             android:layout_weight="1"
             android:ems="10"
-            android:text="Senha" />
+            android:hint="Senha" />
 
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="167dp"
             android:layout_height="56dp"
             android:layout_marginStart="35dp"
-            android:layout_marginBottom="40dp"
             android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/botao_background"
+            android:onClick="goToMain"
             android:text="@string/btnLogin"
             android:textColor="#fff"
             android:textColorHint="#fff"
@@ -116,6 +117,7 @@
         android:id="@+id/btncad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="goToCadastro"
         android:text="@string/cadastre_se"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
